@@ -28,8 +28,8 @@ A web client built with **React.js** and **Vite** to host and run Unity WebGL bu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/TanforDev/unity-react-web-client.git
+   cd unity-react-web-client
    ```
 
 2. Install dependencies:
@@ -38,16 +38,15 @@ A web client built with **React.js** and **Vite** to host and run Unity WebGL bu
    npm install
    ```
 
-3. Place your Unity WebGL build in the `public/Builds` directory. The folder structure should look like this:
+3. Place your Unity WebGL build in the `public/Build` directory. The folder structure should look like this:
 
    ```plaintext
    public/
-   └── Builds/
-       └── [YourUnityBuildFolder]/
-           ├── Build/
-           ├── TemplateData/
-           ├── index.html
-           └── UnityLoader.js
+   └── Build/
+      ├── public.data
+      ├── public.framework.js
+      ├── public.loader.js
+      └── public.wasm
    ```
 
 ### Running the Development Server
@@ -72,7 +71,7 @@ This will generate the `dist` directory with a production-ready version of your 
 
 ## Usage
 
-The Unity WebGL game will load automatically from the specified path in `public/Builds`. The `react-unity-webgl` library provides hooks and props for controlling the Unity instance, allowing for flexible and interactive integration.
+The Unity WebGL game will load automatically from the specified path in `public/Build`. The `react-unity-webgl` library provides hooks and props for controlling the Unity instance, allowing for flexible and interactive integration.
 
 ## Available Scripts
 
@@ -82,7 +81,7 @@ The Unity WebGL game will load automatically from the specified path in `public/
 
 ## Configuration
 
-You may customize the path and other settings in `src/config.js` if additional configuration is needed for loading specific Unity builds.
+You may customize the path and other settings in `App.js` if additional configuration is needed for loading specific Unity builds.
 
 ## Contributing
 
