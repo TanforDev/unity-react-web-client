@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Fragment, useCallback } from "react";
 
 import { Unity, useUnityContext } from "react-unity-webgl";
 function App() {
-  const { unityProvider } = useUnityContext({
+  const { unityProvider, loadingProgression, isLoaded } = useUnityContext({
     loaderUrl: "Build/public.loader.js",
-    dataUrl: "Build/public.data",
-    frameworkUrl: "Build/public.framework.js",
-    codeUrl: "Build/public.wasm",
+    dataUrl: "Build/public.data.br",
+    frameworkUrl: "Build/public.framework.js.br",
+    codeUrl: "Build/public.wasm.br",
   });
 
   useEffect(() => {
@@ -30,11 +30,17 @@ function App() {
   }, [devicePixelRatio]);
 
   return (
-    <Unity
-      unityProvider={unityProvider}
-      style={{ width: "100vw", height: "100vh" }}
-      devicePixelRatio={devicePixelRatio}
-    />
+    <Fragment>
+      {!isLoaded && (
+        <p>Loading Application... {Math.round(loadingProgression * 100)}%</p>
+      )}
+      <Unity
+        unityProvider={unityProvider}
+        className="content"
+        devicePixelRatio={devicePixelRatio}
+        style={{ visibility: isLoaded ? "visible" : "hidden" }}
+      />
+    </Fragment>
   );
 }
 
