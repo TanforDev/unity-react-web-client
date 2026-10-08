@@ -1,47 +1,21 @@
-import React, { useState, useEffect, Fragment, useCallback } from "react";
-
-import { Unity, useUnityContext } from "react-unity-webgl";
-function App() {
-  const { unityProvider, loadingProgression, isLoaded } = useUnityContext({
-    loaderUrl: "Build/public.loader.js",
-    dataUrl: "Build/public.data.br",
-    frameworkUrl: "Build/public.framework.js.br",
-    codeUrl: "Build/public.wasm.br",
-  });
-
-  useEffect(() => {
-    // A function which will update the device pixel ratio of the Unity
-    // Application to match the device pixel ratio of the browser.
-    const updateDevicePixelRatio = function () {
-      setDevicePixelRatio(window.devicePixelRatio);
-    };
-    // A media matcher which watches for changes in the device pixel ratio.
-    const mediaMatcher = window.matchMedia(
-      `screen and (resolution: ${devicePixelRatio}dppx)`
-    );
-    // Adding an event listener to the media matcher which will update the
-    // device pixel ratio of the Unity Application when the device pixel
-    // ratio changes.
-    mediaMatcher.addEventListener("change", updateDevicePixelRatio);
-    return function () {
-      // Removing the event listener when the component unmounts.
-      mediaMatcher.removeEventListener("change", updateDevicePixelRatio);
-    };
-  }, [devicePixelRatio]);
-
-  return (
-    <Fragment>
-      {!isLoaded && (
-        <p>Loading Application... {Math.round(loadingProgression * 100)}%</p>
-      )}
-      <Unity
-        unityProvider={unityProvider}
-        className="content"
-        devicePixelRatio={devicePixelRatio}
-        style={{ visibility: isLoaded ? "visible" : "hidden" }}
-      />
-    </Fragment>
-  );
+import { useState } from 'react';
+import UnityPlayer from './UnityPlayer.jsx';
+import { getUnityConfig } from './runtime.js';
+export default function App() {
+  const [progress, setProgress] = useState(0);
+  const [ready, setReady] = useState(false);
+  const [error, setError] = useState(null);
+  return (<>
+    <UnityPlayer config={getUnityConfig()} onProgress={setProgress}
+      onReady={() => setReady(true)} onError={setError} />
+    {!ready && <div className="loading" role="status" aria-live="polite">
+      {error ? <>
+        <p>WorldTap could not load. Please try again.</p>
+        <button onClick={() => window.location.reload()}>Reload</button>
+      </> : <>
+        <p>Loading WorldTap… {Math.round(progress * 100)}%</p>
+        <progress max="1" value={progress} aria-label="Game download progress" />
+      </>}
+    </div>}
+  </>);
 }
-
-export default App;

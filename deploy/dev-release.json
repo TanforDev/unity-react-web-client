@@ -1,0 +1,397 @@
+{
+  "environment": "dev",
+  "firebaseProject": "worldtapio-dev",
+  "buildId": "20261007-205348",
+  "baseUrl": "https://d2agetn4u2winj.cloudfront.net/dev/20261007-205348/",
+  "loader": "Build/20261007-205348.loader.js.br",
+  "framework": "Build/20261007-205348.framework.js.br",
+  "code": "Build/20261007-205348.wasm.br",
+  "data": "Build/20261007-205348.data.br",
+  "bucket": "worldtap-webgl-dev-376129878558-us-east-1",
+  "objects": [
+    {
+      "key": "Build/20261007-205348.data.br",
+      "contentType": "application/octet-stream",
+      "encoding": "br",
+      "bytes": 27729196,
+      "originalBytes": 47571885,
+      "sha256": "05afcecdc9c1330ebdabd3368801d7d732470b954909d19210aeda8b9614daa1"
+    },
+    {
+      "key": "Build/20261007-205348.framework.js.br",
+      "contentType": "application/javascript",
+      "encoding": "br",
+      "bytes": 81347,
+      "originalBytes": 456148,
+      "sha256": "70d9d1031b35960e9ff67e4a96fd35b36b1c0bc91b9c2b2cb1028df0aa83ac71"
+    },
+    {
+      "key": "Build/20261007-205348.jpg",
+      "contentType": "image/jpeg",
+      "encoding": null,
+      "bytes": 30267,
+      "originalBytes": 30267,
+      "sha256": "66d0baec3b2131ba395fce8ec429f3850192b429b0f5483b0fb87dea4c3bd21f"
+    },
+    {
+      "key": "Build/20261007-205348.loader.js.br",
+      "contentType": "application/javascript",
+      "encoding": "br",
+      "bytes": 8359,
+      "originalBytes": 27675,
+      "sha256": "9fc53685cb8239f055d0f6b032356b575daa735ba22429c1df917c3c2e701c05"
+    },
+    {
+      "key": "Build/20261007-205348.wasm.br",
+      "contentType": "application/wasm",
+      "encoding": "br",
+      "bytes": 11702932,
+      "originalBytes": 59781749,
+      "sha256": "b4c832d8850a862b830b054659946dd2b64beb7d92bdaf4055afa32e928845d2"
+    },
+    {
+      "key": "StreamingAssets/aa/AddressablesLink/link.xml",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 11248,
+      "originalBytes": 11248,
+      "sha256": "04414302d8fe3ed776ccfad98a1990c27d556e3b422b2c7e2ebd826cdb17ef02"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/160931a871b9acee5758401448546f30_monoscripts_905946ba625ffe94df97e49d8a40c323.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 3957,
+      "originalBytes": 3957,
+      "sha256": "94b84c8f9c17ddbf1db9bf152d3f82d69697b588cf15fa3a29188db0a54cc287"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/160931a871b9acee5758401448546f30_unitybuiltinassets_dd66b679b20819c2f117c29d6cd30c3d.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 34985,
+      "originalBytes": 34985,
+      "sha256": "41c200875214a7180eed1c74cc2d1dd4ef13abf09b1c4525acb7d073425aef4a"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actionpreviews_assets_all_bb1eaa6eff15fea8034fa9c3f2cd970e.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 569293,
+      "originalBytes": 569293,
+      "sha256": "fb6e989677cd1f92c6d1caddf1a7126a952292f308388cd186afe3469b94a251"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actionshared_assets_all_1520d6f35afbb4f254137330eeddb35b.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 1528161,
+      "originalBytes": 1528161,
+      "sha256": "5fdea0e4acd575af4090a0a47021cc6e3f6b72fdd8f45334e91523c8fd930790"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_attack-00_873778292e95ff61546821e23ba85b43.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 603356,
+      "originalBytes": 603356,
+      "sha256": "da8f0befcfdcc87e9c2dc39ca6568b692c185ef48e64ab660e9827422121e137"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_attack-01_dac809c3d88e3d545c7750e87e3ebf95.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 580961,
+      "originalBytes": 580961,
+      "sha256": "ce2ffc7472caeb38f53626d711f9937b5673e5c6357f60642c4ef03db7344e71"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_attack-02_a609ec761715dce45ec868084eba7f39.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 934698,
+      "originalBytes": 934698,
+      "sha256": "2172b891efc266e48d696b886ba028682b85ae73133f253c9db6c0830c20cd12"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_attack-03_108a5548cb5c4bef5df43918b9da858b.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 9450465,
+      "originalBytes": 9450465,
+      "sha256": "d88540749c38de99005b66416b7b30cae4f4c21c34d3ac592bdf4a9d5a69d969"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_help-00_2e5d388d4e2e45599da485782aab4374.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 360528,
+      "originalBytes": 360528,
+      "sha256": "64b58c0bdc4eadaa4d7265a317ad766520286f191095d82d5a2c8a28a31b7424"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_help-01_2f108a47b787323d9fb71855a38fd530.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 348927,
+      "originalBytes": 348927,
+      "sha256": "2d1789e81b7b7e9df97f8742d1528ead7394c5d6aec7169858c8177d291a689a"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_help-02_db4859363fa1246c27a5a8e2b2ccb5d2.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 5480483,
+      "originalBytes": 5480483,
+      "sha256": "b387592228d2742dc9c68b951c72a13a17d236f5302a8ce8843735611a4febef"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/actions_assets_help-03_4fb2752bcdee43a10a7be3896ad31575.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 1280111,
+      "originalBytes": 1280111,
+      "sha256": "4844b280645dff9161e5725b0b82fc98fdf3c7239118658b5aa92ec3cd5c6740"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/catalog_2026.10.07.20.53.53.bin",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 48624,
+      "originalBytes": 48624,
+      "sha256": "76402186ed9ce5cb8f217058d9c89914f190e01395ec321f205e52fc2fca2a81"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/catalog_2026.10.07.20.53.53.hash",
+      "contentType": "text/plain",
+      "encoding": null,
+      "bytes": 32,
+      "originalBytes": 32,
+      "sha256": "75490ed69c83321da0d2f24da6f9ee7648cdf6295bee8bb34a929b39acc4d2ea"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-chinese(simplified)(zh-hans)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2395,
+      "originalBytes": 2395,
+      "sha256": "568240a76004f3936262bdda014181eb3a099b3a5d5dd8588409d4537d1f9d56"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-english(en)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2418,
+      "originalBytes": 2418,
+      "sha256": "7e61f9eaafe46c0b32326de3e1434a179f190ff32e080b992d766e0cd5a1bc39"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-french(fr)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2416,
+      "originalBytes": 2416,
+      "sha256": "3fb798b9c0d3463f14b4f4beb7a193b6755332121799899a664aa7b6100fe323"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-german(de)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2441,
+      "originalBytes": 2441,
+      "sha256": "46b7ec0612ebc9006110ea11b2a3216d92ec5554e396459b079b2895e4b01596"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-japanese(ja)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2391,
+      "originalBytes": 2391,
+      "sha256": "61ae4edd793a84e01e436afae381e7d987ee78a0df22295e940b3cb475a74ffe"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-korean(ko)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2417,
+      "originalBytes": 2417,
+      "sha256": "fec7cd1abc76b8c16a8a6423708bd5afd6bf237c433c4f76559b45f95c06cf8e"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-portuguese(pt-br)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2445,
+      "originalBytes": 2445,
+      "sha256": "5a5e858f6cee46d7006d83108900eab42537823e4a1fa72a116534c921dce938"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-spanish(es)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2440,
+      "originalBytes": 2440,
+      "sha256": "81074eadc8de912289d6577efbc48d04fa0bf1a8b6c3015581f31269a09d896a"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-asset-tables-turkish(tr)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2419,
+      "originalBytes": 2419,
+      "sha256": "a2c3736d652dbfe28a5260680baecc22a9edd2139880b3513bc18d468eab1638"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-assets-chinese(simplified)(zh-hans)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 1248461,
+      "originalBytes": 1248461,
+      "sha256": "a50a66273c026c0a23fe0227c497e9f5d0a9442b8b102cc4b6af5269b79b1aa4"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-assets-japanese(ja)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 3439495,
+      "originalBytes": 3439495,
+      "sha256": "9eca6967582289ea5781364d1c1b8031561602bfe933ddc7433ffb863092424e"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-assets-korean(ko)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 387035,
+      "originalBytes": 387035,
+      "sha256": "4f6908af659966122d56e84f1073671f61e0bff36e5f62932ee20a10f95e9b6a"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-assets-shared_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 580945,
+      "originalBytes": 580945,
+      "sha256": "bbd5a29188f19412ad4b3778d828fb8fd0c0a72ed30cb0fb21311b6443829f5e"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-locales_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 2594,
+      "originalBytes": 2594,
+      "sha256": "0050f1521ab139f3750416e990c05ac918e667f3124c5e8151af000ee8979a7c"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-chinese(simplified)(zh-hans)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12298,
+      "originalBytes": 12298,
+      "sha256": "72a25037ffdf0f523462bc885da5e2ac48439c72efe1c8605d8fd555d8fa6b22"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-english(en)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12264,
+      "originalBytes": 12264,
+      "sha256": "d438293f96d07bc8e946b74eee09bf1c7bfacfbc413a24d6445ce0f06690849f"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-french(fr)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12927,
+      "originalBytes": 12927,
+      "sha256": "2d6f91f093b26068a7ef9964be4909fa4cd6d57d04a9166e452a0298ef0946fa"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-german(de)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12726,
+      "originalBytes": 12726,
+      "sha256": "dad8af9cd721e8b718bee81cd15bd8a499568930f08bcc1de2a071330adb4ecb"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-japanese(ja)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12629,
+      "originalBytes": 12629,
+      "sha256": "51a505d01abb8fb3492bfb0c7f8a800f77a81480103ad2aeab1c03d5a2022190"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-korean(ko)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12492,
+      "originalBytes": 12492,
+      "sha256": "1ebd4e2fdfc8e79b4f2f3afc9f5fb378f6f0ee2761607b4ff5a2e5df46c54ace"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-portuguese,brazil(pt-br)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12536,
+      "originalBytes": 12536,
+      "sha256": "70aa208408a015699c50ab1942b4914752980bf811f8d46d43bb7d32c39ef2fb"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-spanish(es)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12847,
+      "originalBytes": 12847,
+      "sha256": "f56232c5a0b8ad934430c8cf8e730b56b7f792ede2594cea317ef87a1df396fa"
+    },
+    {
+      "key": "StreamingAssets/aa/Android/localization-string-tables-turkish(tr)_assets_all.bundle",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 12420,
+      "originalBytes": 12420,
+      "sha256": "a6b5739d59c4c08f97fb9f8536ecbee787ba814a8b6078b1817a50e16a3aa629"
+    },
+    {
+      "key": "StreamingAssets/aa/catalog.bin",
+      "contentType": "application/octet-stream",
+      "encoding": null,
+      "bytes": 48624,
+      "originalBytes": 48624,
+      "sha256": "76402186ed9ce5cb8f217058d9c89914f190e01395ec321f205e52fc2fca2a81"
+    },
+    {
+      "key": "StreamingAssets/aa/catalog.hash",
+      "contentType": "text/plain",
+      "encoding": null,
+      "bytes": 32,
+      "originalBytes": 32,
+      "sha256": "75490ed69c83321da0d2f24da6f9ee7648cdf6295bee8bb34a929b39acc4d2ea"
+    },
+    {
+      "key": "StreamingAssets/aa/settings.json",
+      "contentType": "application/json",
+      "encoding": null,
+      "bytes": 4288,
+      "originalBytes": 4288,
+      "sha256": "93874815391f62c888ce13543d216a5b58c36c8da64210c9b536421c1265cc0b"
+    },
+    {
+      "key": "StreamingAssets/google-services-desktop.json",
+      "contentType": "application/json",
+      "encoding": null,
+      "bytes": 762,
+      "originalBytes": 762,
+      "sha256": "cdce3af5e1be3be75daf4b3491bc04d476f3c4a7010caf90cf6e634d9a908fff"
+    },
+    {
+      "key": "StreamingAssets/UnityServicesProjectConfiguration.json",
+      "contentType": "application/json",
+      "encoding": null,
+      "bytes": 1495,
+      "originalBytes": 1495,
+      "sha256": "168611e78b2836f5e3ec8f97d95b9b61499550c8b4ea3e9d14f29d5789a9fbdf"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "projectId": "worldtapio-dev",
+  "appId": "1:1092350471579:web:de56feb63ef7f72e36053e",
+  "databaseURL": "https://worldtapio-dev-default-rtdb.firebaseio.com",
+  "storageBucket": "worldtapio-dev.firebasestorage.app",
+  "apiKey": "AIzaSyAnLi97mxuPNXBaJT1KYzNOb-Fsuymn6d4",
+  "authDomain": "worldtapio-dev.firebaseapp.com",
+  "messagingSenderId": "1092350471579",
+  "measurementId": "G-LVFHQL7GE0"
+}

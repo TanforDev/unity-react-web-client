@@ -27,3 +27,6 @@ dist-ssr
 public/Build
 public/TemplateData
 public/index.html
+artifacts/
+firebase-debug.log
+.firebase/

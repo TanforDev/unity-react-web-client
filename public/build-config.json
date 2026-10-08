@@ -1,0 +1,10 @@
+{
+  "environment": "dev",
+  "firebaseProject": "worldtapio-dev",
+  "buildId": "20261007-205348",
+  "baseUrl": "https://d2agetn4u2winj.cloudfront.net/dev/20261007-205348/",
+  "loader": "Build/20261007-205348.loader.js.br",
+  "framework": "Build/20261007-205348.framework.js.br",
+  "code": "Build/20261007-205348.wasm.br",
+  "data": "Build/20261007-205348.data.br"
+}
